@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Sustentabilidade</title>
+</head>
+<body>
+    <h2>Formulário de Sustentabilidade</h2>
+    <form>
+        <fieldset>
+            <legend>Registro do cliente</legend>
+            <p>
+            </p><label for="name"></label>
+                    Nome:
+                </label>
+                <input text="text" id="nome" name="nome" placeholder="Digite seu nome aqui">
+                <p></p>
+                <label for="datNascimento">Data de nascimento:</label>
+                <input type="date" id="datNascimento" name="datNascimento"></p>
+                <p>
+                <label for="email">
+                    E-mail:
+                </label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail aqui">
+                <p>
+                    <label for="senha"></label>
+                    Senha:
+                    <input type="password" id="senha" name="senha" placeholder="Digite aqui sua senha">
+                </p> 
+                <label for="estado">Estado: </label>
+                <select id="estado" name="estado">
+                    <option>Selecione o Estado</option>
+                    <option  value = " AC " > Acre </option>
+                    <option  value = " AL " > Alagoas </option>
+                    <option  value = " AP " > Amapá </option>
+                    <option  value = " AM " > Amazonas </option>
+                    <option  value = " BA " > Bahia </option>
+                    <option  value = " CE " > Ceará </option>
+                    <option  value = " DF " > Distrito Federal </option>
+                    <option  value = " ES " > Espírito Santo </option>
+                    <option  value = " GO " > Goiás </option>
+                    <option  value = " MA " > Maranhão </option>
+                    <option  value = " MT " > Mato Grosso </option>
+                    <option  value = " MS " > Mato Grosso do Sul </option>
+                    <option  value = " MG " > Minas Gerais </option>
+                    <option  value = " PA " > Pará </option>
+                    <option  value = " PB " > Paraíba </option>
+                    <option  value = " PR " > Paraná </option>
+                    <option  value = " PE " > Pernambuco </option>
+                    <option  value = " PI " > Piauí </option>
+                    <option  value = " RJ " > Rio de Janeiro </option>
+                    <option  value = " RN " > Rio Grande do Norte </option>
+                    <option  value = " RS " > Rio Grande do Sul </option>
+                    <option  value = " RO " > Rondônia </option>
+                    <option  value = " RR " > Roraima </option>
+                    <option  value = " SC " > Santa Catarina </option>
+                    <option  value = " SP " > São Paulo </option>
+                    <option  value = " SE " > Sergipe </option>
+                    <option  value = " TO " > Tocantins </option>
+                </select>
+
+        </fieldset>
+        <p>
+            <fieldset>
+                <legend>Outras informações</legend>
+                <p>
+                    <label for="Sustentabilidade"> Você já ouviu falar em sustentabilidade?</label>
+                    <p>
+                        <input type="radio" value="sim" name="Sustentabilidade"> Sim
+                        <input type="radio" value="nao" name="Sustentabilidade">Não
+                    </p>
+                    <p>Se caso já, quais foram as maneiras que você já ouviu falar?</p>
+                    <input type="checkbox" name="opções"> Placa Solares
+                    <input type="checkbox" name="opções"> Bio Gás
+                    <input type="checkbox" name="opções"> Bio Disel
+                    <input type="checkbox" name="opções"> Eco Vila
+                    <input type="checkbox" name="opções"> Reclicagem
+                    <input type="checkbox" name="opções"> Horta comunitaria
+                </p>
+            <label for="mensagem">
+                Gostaria de deixar alguma mensagem?
+            </label>
+            <textarea id=mensagem placeholder="Deixe aqui sua mensagem"></textarea>
+            </fieldset>
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+                
+            </p>
+
+        </p>
+        
+    </form>
+    
+</body>
+</html>
